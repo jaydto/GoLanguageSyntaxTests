@@ -1,13 +1,14 @@
 package main
 
 import (
-	"package1/channelsgo"
-	"package1/genericsgo"
-	"package1/goroutines"
-	"package1/pointersgo"
-	"package1/runesgo"
-	"package1/stringsgo"
-	"package1/structsgo"
+	// "package1/channelsgo"
+	// "package1/genericsgo"
+	// "package1/goroutines"
+	"package1/interfacesgo"
+	// "package1/pointersgo"
+	// "package1/runesgo"
+	// "package1/stringsgo"
+	// "package1/structsgo"
 )
 
 // "package1/arraysgo"
@@ -24,16 +25,19 @@ func main() {
 	// mapsgo.MyMaps()
 	// arraysgo.Looping2()
 	// speedtestgo.SpeedTest()
-	runesgo.RunesGo()
-	stringsgo.StringManipulations()
+	// runesgo.RunesGo()
+	// stringsgo.StringManipulations()
 
-	structsgo.Mystructs()
+	// structsgo.Mystructs()
 
-	pointersgo.MyPointers()
+	// pointersgo.MyPointers()
 
-	goroutines.MyGoroutines()
-	channelsgo.MyChannels()
-	genericsgo.MyGenerics()
+	// goroutines.MyGoroutines()
+	// channelsgo.MyChannels()
+	// genericsgo.MyGenerics()
+
+	interfacesgo.Players()
+	interfacesgo.PlayerEvaluation()
 
 	// variablesgo.VariablesTest()
 
